@@ -36,7 +36,7 @@
   flex-grow: 1;
 }
 .task-line {
-  display: flex
+  display: flex;
 }
 .todoblock__incomplete {
   margin: 0;
