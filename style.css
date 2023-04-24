@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.taskblock {
+.taskline {
   display: flex;
 }
 .todoblock__incomplete {
