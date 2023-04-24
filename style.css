@@ -42,10 +42,12 @@
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button {
   outline: none;
 }
 ul {
@@ -91,29 +93,26 @@ button:hover {
 }
 
 /* New Task */
-label[for='new-task'] {
+.add-label {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+.add-input {
   width: 318px;
 }
 
 /* Task list */
-li {
+.list {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-li > * {
-  vertical-align: middle;
-}
-
-.list {
   margin: 0 10px;
+}
+.list > * {
+  vertical-align: middle;
 }
 .task {
   padding-left: 10px;
