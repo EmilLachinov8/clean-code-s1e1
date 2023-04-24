@@ -33,20 +33,20 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-line {
-  display: flex;
+  display: flex
 }
 .todoblock__incomplete {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 ul {
   padding: 0;
@@ -141,15 +141,15 @@ li > * {
 
 /* Edit Task */
 .list .task-input {
-  display:none;
+  display: none;
 }
 
 .edit-mode .task-input {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
   flex-grow: 1;
 }
 
 .edit-mode .task {
-  display:none;
+  display: none;
 }
